@@ -1,0 +1,52 @@
+nav{display: flex;
+    align-items: center;
+    justify-content: space-between;
+    
+    padding: 20px 80px;
+    flex-direction: row;
+}
+
+#navbar {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+}
+
+#navbar li {
+    list-style: none;
+    padding: 0 20px;
+    position: relative;
+}
+
+#navbar li  a {
+    text-decoration: none;
+    font-size: 1rem;
+    font-weight: 700;
+    color: black;
+    transition: 0.3s ease-in-out;
+}
+#navbar li  a:hover {
+    color:white ;
+}
+
+.icon img {
+    height: 70px;
+    width: 70x;
+}
+
+.icon2 img {
+    height: 30px;
+    width: 30x;
+}
+
+.cart{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: row;
+}
+
+.cart p {
+    padding-bottom: 20px;
+}
