@@ -1,5 +1,8 @@
-function Greetings() {
+import './NavBar.css';
+
+function Greetings(props) {
     return (
-        prompt("Greetings!")
+        <h1 className='hi'>Hello, {props.name}!</h1>
     )
 }
+export default Greetings;

@@ -1,8 +1,7 @@
 nav{display: flex;
     align-items: center;
     justify-content: space-between;
-    
-    padding: 20px 80px;
+    padding: 10px 80px;
     flex-direction: row;
 }
 
@@ -49,4 +48,9 @@ nav{display: flex;
 
 .cart p {
     padding-bottom: 20px;
+}
+
+.hi{
+    background-color: white;
+    padding: 30px;
 }
