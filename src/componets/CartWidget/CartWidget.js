@@ -1,5 +1,4 @@
-import './NavBar.css';
-
+import './CartWidget.css';
 function CartWidget() {
     return(
         <div className="cart">
