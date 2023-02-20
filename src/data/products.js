@@ -1,4 +1,4 @@
-const products = [
+export const products = [
     {
         id: 1,
         name: 'Aro 1',
@@ -6,7 +6,7 @@ const products = [
         price: '25 USD',
         stock: 5,
         category: 'aro',
-        image: './public/aro1.png',
+        image: '/img/aro1.png',
     },
     {
         id: 2,
@@ -15,7 +15,7 @@ const products = [
         price: '25 USD',
         stock: 5,
         category: 'aro',
-        image: './public/aro2.jfif',
+        image: '/img/aro2.jfif',
     },
     {
         id: 3,
@@ -24,7 +24,7 @@ const products = [
         price: '25 USD',
         stock: 5,
         category: 'aro',
-        image: './public/aro3.jfif',
+        image: '/img/aro3.jfif',
     },
     {
         id: 4,
@@ -33,7 +33,7 @@ const products = [
         price: '25 USD',
         stock: 5,
         category: 'aro',
-        image: './public/aro4.jfif',
+        image: '/img/aro4.jfif',
     },
     {
         id: 5,
@@ -42,7 +42,7 @@ const products = [
         price: '30 USD',
         stock: 5,
         category: 'aro',
-        image: './public/aro5.jfif',
+        image: '/img/aro5.jfif',
     },
     {
         id: 6,
@@ -51,7 +51,7 @@ const products = [
         price: '30 USD',
         stock: 5,
         category: 'anillo',
-        image: './public/anillo1.jfif',
+        image: '/img/anillo1.jfif',
     },
     {
         id: 7,
@@ -60,7 +60,7 @@ const products = [
         price: '30 USD',
         stock: 5,
         category: 'anillo',
-        image: './public/anillo2.jfif',
+        image: '/img/anillo2.jfif',
     },
     {
         id: 8,
@@ -69,7 +69,7 @@ const products = [
         price: '30 USD',
         stock: 7,
         category: 'anillo',
-        image: './public/anillo3.jfif',
+        image: '/img/anillo3.jfif',
     },
     {
         id: 9,
@@ -78,7 +78,7 @@ const products = [
         price: '30 USD',
         stock: 5,
         category: 'anillo',
-        image: './public/anillo4.jfif',
+        image: '/img/anillo4.jfif',
     },
     {
         id: 10,
@@ -87,7 +87,7 @@ const products = [
         price: '50 USD',
         stock: 5,
         category: 'pulsera',
-        image: './public/pulsera1.png',
+        image: '/img/pulsera1.png',
     },
     {
         id: 11,
@@ -96,7 +96,7 @@ const products = [
         price: '55 USD',
         stock: 5,
         category: 'pulsera',
-        image: './public/pulsera2.jfif',
+        image: '/img/pulsera2.jfif',
     },
     {
         id: 12,
@@ -105,7 +105,7 @@ const products = [
         price: '60 USD',
         stock: 5,
         category: 'pulsera',
-        image: './public/pulsera3.jfif',
+        image: '/img/pulsera3.jfif',
     }
     
 ]
