@@ -3,6 +3,7 @@ import { products } from "../../data/products";
 import { useEffect, useState } from "react";
 import ItemDetail from "../ItemDetail/ItemDetail";
 
+
 const ItemDetailContainer = () => {
     const {id} = useParams();
     const [detailObject, setDetailObject] = useState([]);
@@ -19,7 +20,9 @@ const ItemDetailContainer = () => {
         .then(response => {setDetailObject(response)})
         .catch((error) => {console.log(error)})
     }, [])
-    return <div> <ItemDetail detail={detailObject} /> </div>;
+    return <div style={{display: 'flex', justifyContent:'center', padding:'20px',flexDirection: 'column' }} > 
+    <ItemDetail detail={detailObject} />
+            </div>;
 };
 
 export default ItemDetailContainer;
