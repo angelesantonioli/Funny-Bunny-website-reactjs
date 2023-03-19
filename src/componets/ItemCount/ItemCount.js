@@ -12,7 +12,7 @@ const ItemCount = ({ counter, setCounter, stock }) => {
             <h2>{counter}</h2>
             <div className="controlers">
                 <button onClick={take} disabled={counter <= 0}>-</button>
-                <button onClick={add} disabled={counter >= stock}>+</button>
+                <button onClick={add} disabled={counter >= stock || counter === 0}>+</button>
             </div>
         </div>
     )

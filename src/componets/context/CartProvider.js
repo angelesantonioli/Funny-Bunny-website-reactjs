@@ -20,7 +20,7 @@ const CartProvider = ({ children }) => {
         } else {
             const product = {
                 id: item.id,
-                name: item.name,
+                title: item.title,
                 description: item.description,
                 price: item.price,
                 quantity: quantity,

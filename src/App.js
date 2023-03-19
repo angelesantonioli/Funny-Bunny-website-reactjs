@@ -5,8 +5,10 @@ import ItemDetailContainer from './componets/ItemDetailContainer/ItemDetailConta
 import Cart from './componets/Cart/Cart';
 import CartProvider from './componets/context/CartProvider';
 import 'bootstrap/dist/css/bootstrap.min.css';
+import RenderCondicional from './componets/RenderCondicional/RenderCondicional';
 
 function App() {
+  <RenderCondicional/>
   return (
     <BrowserRouter>
     <CartProvider>

@@ -19,7 +19,7 @@ export const products = [
     },
     {
         id: 3,
-        name: 'Aro 2',
+        name: 'Aro 3',
         description: 'The perfect jewelry for you!',
         price: '25 USD',
         stock: 55,
