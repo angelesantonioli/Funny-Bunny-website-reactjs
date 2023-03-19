@@ -4,11 +4,10 @@ import ItemListContainer from './componets/ItemListContainer/ItemListContainer'
 import ItemDetailContainer from './componets/ItemDetailContainer/ItemDetailContainer';
 import Cart from './componets/Cart/Cart';
 import CartProvider from './componets/context/CartProvider';
+import Contact from './componets/Contact/Contact';
 import 'bootstrap/dist/css/bootstrap.min.css';
-import RenderCondicional from './componets/RenderCondicional/RenderCondicional';
 
 function App() {
-  <RenderCondicional/>
   return (
     <BrowserRouter>
     <CartProvider>
@@ -16,6 +15,7 @@ function App() {
     <Routes>
       <Route path="/" element= {<ItemListContainer/>} />
       <Route path="/cart" element= {<Cart/>} />
+      <Route path="/contacto" element= {<Contact/>} />
       <Route path="/item/:id" element= {<ItemDetailContainer/>} />
       <Route path="/category/:categoryId" element= {<ItemListContainer/>} />
       <Route path="*" element= {<div><h1> ¡Opps! Esa página no existe</h1></div>} />

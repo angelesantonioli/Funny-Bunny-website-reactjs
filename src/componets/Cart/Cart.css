@@ -1,0 +1,51 @@
+.cartContainer {
+    display: flex;
+    justify-content: center;
+    background-color: rgba(195, 194, 194, 0.435);
+    border-radius: 10px;
+    margin: 20px;
+    padding: 30px;
+    font-family: 'Courier New', Courier, monospace;
+}
+
+.cartProduct {
+    display: flex;
+    width: 600px;
+    justify-content: space-between;
+    background-color: grey;
+    padding: 30px;
+    margin: 20px;
+    border-radius: 10px;
+    border: 5px solid rgba(0, 0, 0, 0.337);
+}
+
+.cartSubProduct {
+    display: flex;
+    justify-content: center;
+    align-content: center;
+    text-align: center;
+}
+.cartSubProduct button {
+    width: 200px;
+    margin: 10px;
+    position: relative;
+    top: 50%;
+    left: 35%;
+}
+
+.cartForm {
+    display: flex;
+    flex-direction: column;
+    margin: 10px;
+    background-color: grey;
+    border-radius: 10px;
+    border: 5px solid rgba(0, 0, 0, 0.337);
+    padding: 30px;
+}
+
+.cartForm button {
+    margin: 20px;
+}
+.cartForm input {
+    margin: 5px;
+}

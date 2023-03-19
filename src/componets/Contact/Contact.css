@@ -1,0 +1,21 @@
+.contactContainer {
+    display: flex;
+    text-align: center;
+    flex-direction: column;
+    justify-content: center;
+    background-color: rgba(195, 194, 194, 0.435);
+    border-radius: 10px;
+    margin: 20px;
+    padding: 30px;
+    font-family: 'Courier New', Courier, monospace;
+}
+
+.contactContent {
+    display: flex;
+    flex-direction: column;
+    margin: 10px;
+    background-color: grey;
+    border-radius: 10px;
+    border: 5px solid rgba(0, 0, 0, 0.337);
+    padding: 30px;
+}

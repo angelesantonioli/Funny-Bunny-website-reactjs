@@ -1,0 +1,22 @@
+.detailContainer {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin: 10px;
+    background-color: rgba(128, 128, 128, 0.6);
+    border-radius: 10px;
+    border: 5px solid rgba(0, 0, 0, 0.178);
+    padding: 30px;
+    font-family: 'Courier New', Courier, monospace;
+    text-align: center;
+}
+
+.detailContainer img {
+    border-radius: 10px;
+    border: 5px solid rgba(0, 0, 0, 0.178);
+}
+
+.detailContainer button {
+    margin: 5px;
+}
