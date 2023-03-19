@@ -1,4 +1,4 @@
-![](./public/intro.gif) {width='200px'}
+![](./public/intro.gif)
 
 
 # Getting Started with Create React App
